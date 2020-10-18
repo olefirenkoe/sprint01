@@ -1,0 +1,12 @@
+span {
+    font-family: Arial;
+    font-size: 4em;
+    color: white;
+}
+
+h1 {
+    padding-top: 15px;
+    background: red;
+    height: 115px;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.image {
+    padding: 80px;
+}
+
+.image:hover {
+    position: relative;
+    transform: rotate(-30deg);
+}

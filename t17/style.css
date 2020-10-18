@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    background: #EEEDED;
+}
+
+h2 {
+    text-align: center;
+    padding: 0;
+    margin: -10px;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+img#big {
+    box-sizing: border-box;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+}
+
+img#html {
+    width: 100px;
+}
+
+.code {
+    color: #08A661;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    border: 2px solid grey;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}

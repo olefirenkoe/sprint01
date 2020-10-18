@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.item#one {
+    flex-grow: 1;
+}
+
+.form {
+    border-color: blue;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.form,
+.button {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    color: green;
+}
+
+.container input:hover {
+    color: crimson;
+}

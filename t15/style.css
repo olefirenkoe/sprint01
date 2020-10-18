@@ -1,0 +1,17 @@
+#container {
+    width: max-content;
+}
+
+img {
+    width: 150px;
+}
+
+.infinity {
+    width: 200px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+#container:hover+#cube img:nth-child(2n) {
+    opacity: 0;
+}

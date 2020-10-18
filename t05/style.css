@@ -1,0 +1,63 @@
+.America,
+.Iron,
+.Black,
+.Spider {
+    width: 285px;
+    height: 160px;
+    border-radius: 5px;
+    font-family: Verdana;
+    margin: 30px;
+    display: inline-block;
+}
+
+.America {
+    background: linear-gradient(to bottom, #4568DC, #B06AB3);
+}
+
+.Iron {
+    background: linear-gradient(to bottom, #e52d27, #b31217);
+}
+
+.Black {
+    background: linear-gradient(to bottom, #000, #61045F);
+}
+
+.Spider {
+    background: linear-gradient(to bottom, #e52d27, #000);
+}
+
+.alias,
+.name {
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+.alias {
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0em;
+}
+
+.name {
+    padding-right: 10px;
+    font-size: 9px;
+    background: rgba(255, 255, 255, 0, 5);
+}
+
+.name#Spider {
+    padding-left: 40px;
+}
+
+.picture {
+    height: 182px;
+    position: relative;
+    bottom: 22px;
+    padding-left: 10px;
+    float: left;
+}
+
+.picture#Spider {
+    bottom: 0px;
+}

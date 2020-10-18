@@ -1,0 +1,55 @@
+td {
+    text-align: center;
+    padding: .3em 1em;
+    border: 1px solid silver;
+    border-spacing: 0px;
+    /* border-collapse: collapse; */
+}
+
+img {
+    border-radius: 25px;
+    padding: 12x;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    width: 140px;
+    height: 140px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+th {
+    background: black;
+    color: white;
+    border-spacing: 0;
+}
+
+.brown {
+    background: #ED8F23;
+}
+
+.green {
+    background: #259104;
+}
+
+.Blue {
+    background: #3B49B9;
+}
+
+.yellow {
+    background: #FFFB01;
+}
+
+.Red {
+    background: #D40A0A;
+}
+
+.purple {
+    background: #AE66DB;
+}
+
+.foot {
+    text-align: center;
+    padding: 10px;
+}

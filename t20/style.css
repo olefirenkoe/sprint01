@@ -1,0 +1,28 @@
+.item {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 100px;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 80%;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.item:hover {
+    background-color: red;
+    transition: 2s;
+}

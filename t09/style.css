@@ -1,0 +1,42 @@
+.main {
+    border: 2px solid grey;
+    width: 100%;
+    height: max-content;
+}
+
+.container {
+    margin: 20px;
+}
+
+.item {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+#boton {
+    border: none;
+    padding-left: 0px;
+    padding-top: 18px;
+}
+
+input[type="range"] {
+    appearance: none;
+    width: 130px;
+    height: 5px;
+    background: #878787;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    position: absolute;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #eeeeee;
+    cursor: pointer;
+    border: 1px solid grey;
+}

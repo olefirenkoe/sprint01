@@ -1,0 +1,106 @@
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    h1 {
+        color: lightcoral;
+        font-weight: bold;
+    }
+    
+    h1.two {
+        text-align: center;
+        color: lightslategray;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .item4 {
+        display: flex;
+        margin: 0 -5px;
+    }
+    
+    .job {
+        border: 0px;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        width: 100%;
+    }
+    
+    .info {
+        border: 0px;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        width: 100%;
+        flex: 1 1 auto;
+        margin: 0 5px;
+    }
+    
+    .subm1 {
+        background-color: lightcoral;
+        border: 0px;
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+        margin-top: 30px;
+        transition: 1s background-color;
+    }
+    
+    .checkbox {
+        opacity: 0;
+    }
+    
+    label {
+        border: 1px solid grey;
+        border-radius: 60px;
+        padding: 2px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 2.2em;
+        line-height: 2.2em;
+        color: grey;
+        width: 140px;
+    }
+    
+    label#prevent {
+        padding: 0;
+        width: 220px;
+        height: 2.4em;
+        line-height: 2.4em;
+    }
+    
+    .item1,
+    .item2,
+    .item3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .itemjob {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    label:hover {
+        box-shadow: 0 0 4px grey;
+        background: ghostwhite;
+    }
+    
+    .subm1:hover {
+        background-color: #fa9de3;
+    }
+    
+    .checkbox:checked+label {
+        background: #012263;
+        color: white;
+    }
+    
+    .checkbox:checked+label::after {
+        content: "\2713";
+        display: inline-block;
+        position: relative;
+        left: 10px;
+    }

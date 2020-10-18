@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img#seven {
+    width: 230px;
+}
+
+.container {
+    width: 770px;
+    display: grid;
+    grid-template-columns: 120px 120px 60px 60px 100px 50px 200px;
+    grid-template-rows: 160px 140px 270px;
+    grid-template-areas: "one one one two two two two" "three three four four four four five" "six seven seven seven eight nine nine";
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+    grid-column-gap: 5px;
+}
+
+.item1 {
+    grid-area: one;
+}
+
+.item2 {
+    grid-area: two;
+}
+
+.item3 {
+    grid-area: three;
+}
+
+.item4 {
+    grid-area: four;
+}
+
+.item5 {
+    grid-area: five;
+}
+
+.item6 {
+    grid-area: six;
+}
+
+.item7 {
+    grid-area: seven;
+    justify-self: start;
+}
+
+.item8 {
+    grid-area: eight;
+}
+
+.item9 {
+    grid-area: nine;
+}
+
+@media screen and (max-width: 1366px) and (min-width:640px) {
+    .container {
+        width: 560px;
+        padding: 10px;
+        grid-column-gap: 2px;
+        grid-template-columns: 130px 60px 90px 80px 30px 80px 70px;
+        grid-template-rows: 160px 150px 140px 160px 300px 270px;
+        grid-template-areas: "one one one one one . ." "two two two two two two ." "three three three three . . ." "four four four five five five five" "six six seven seven seven seven ." "eight nine nine nine nine nine .";
+    }
+    img#seven {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        justify-content: space-around;
+        width: 560px;
+        margin: auto;
+        grid-column-gap: 5px;
+        grid-template-columns: 280px 20px 30px 10px 80px 60px 50px;
+        grid-template-rows: 160px 140px 140px 140px 140px 280px 290px;
+        grid-template-areas: "one one one one one . . " "two two two two two two . " "three three three three three . . " "four four four six six six six" "five . . six six six six" "seven seven eight eight eight  . ." "nine nine nine . . . .";
+    }
+    img#seven {
+        width: 100%;
+    }
+}

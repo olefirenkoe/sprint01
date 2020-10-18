@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 09</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Superhero Form</h1>
+    <div class="main">
+        <div class="container">
+            <form>
+                <fieldset>
+                    <legend>About the Superhero</legend>
+                    <div class="item">
+                        <label>Real Name<input type="text" placeholder="Superhero real name" required></label>
+                        <label>Superhero Name<input type="text" placeholder="Superhero alias" required></label>
+                        <label>Age<input type="number" min="1" max="999"></label>
+                        <p><label>About <textarea cols="70" rows="5" maxlength="500" placeholder="Information about the superhero, max 500 symbols"></textarea></label></p>
+                        <label>Photo:<input type="file"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Powers</legend>
+                    <div class="item">
+                        <input type="checkbox" name="telek">Telekinesis
+                        <input type="checkbox" name="super">Super strength or speed
+                        <input type="checkbox" name="shape">Shapeshifting
+                        <input type="checkbox" name="flight">Flight
+                        <input type="checkbox" name="control">Elemental control
+                        <input type="checkbox" name="other">Other
+                        <p>Level of control:<input type="range" min="0" max="10" value="1"></p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Origin of Powers</legend>
+                    <div class="item">
+                        <input type="radio" name="unknow">Unknow
+                        <input type="radio" name="unknow">Freak lab accident
+                        <input type="radio" name="unknow">Choosen by an ancient wise being
+                        <input type="radio" name="unknow">The superhero is not human
+                        <input type="radio" name="unknow">Other
+                    </div>
+                </fieldset>
+
+                <div>
+                    <fieldset id="boton">
+                        <input type="reset" value="CLEAR">
+                        <input type="submit" value="SEND">
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
